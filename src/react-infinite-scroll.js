@@ -30,18 +30,11 @@ module.exports = function (React) {
     render: function () {
       var props = this.props;
 
-      var functionName = 'React.DOM.' + this.props.node
+      var functionName = 'React.DOM.' + this.props.node + '(null, props.children, props.hasMore && (props.loader || InfiniteScroll._defaultLoader));' + 
 
       console.log(functionName);
 
-      var fn = window[functionName];
-      if(typeof fn === 'function') {
-        console.log('Executing ' + functionName)
-        return fn(null, props.children, props.hasMore && (props.loader || InfiniteScroll._defaultLoader));
-      } else {
-        console.log('Fallback')
-        return React.DOM.div(null, props.children, props.hasMore && (props.loader || InfiniteScroll._defaultLoader)); 
-      }
+      return eval(functionName);
 
 
 
