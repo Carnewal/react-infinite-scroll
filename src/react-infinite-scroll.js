@@ -5,7 +5,7 @@ function topPosition(domElt) {
   return domElt.offsetTop + topPosition(domElt.offsetParent);
 }
 
-module.exports = function (React) {
+module.exports = function (React, ReactDOM) {
   if (React.addons && React.addons.InfiniteScroll) {
     return React.addons.InfiniteScroll;
   }
