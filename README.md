@@ -1,7 +1,9 @@
-React Infinite Scroll
+React Infinite Scroll Table
 =====================
 
 *React infinite scroll component*
+
+*Edited for tables (tr instead of div wrapper)*
 
 Demo: http://jsfiddle.net/mb9vJ/2
 
