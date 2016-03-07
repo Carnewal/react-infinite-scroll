@@ -3,7 +3,7 @@ React Infinite Scroll Table
 
 *React infinite scroll component*
 
-*Edited for tables (tr instead of div wrapper)*
+*Edited for tables (tbody instead of div wrapper)*
 
 Demo: http://jsfiddle.net/mb9vJ/2
 
