@@ -1,6 +1,6 @@
 {
-  "name": "react-infinite-scroll",
-  "version": "0.1.5",
+  "name": "react-infinite-scroll-table",
+  "version": "0.0.1",
   "description": "",
   "main": "src/react-infinite-scroll.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/guillaumervls/react-infinite-scroll.git"
+    "url": "git://github.com/carnewal/react-infinite-scroll.git"
   },
   "keywords": [
     "infinite",

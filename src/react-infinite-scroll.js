@@ -28,7 +28,7 @@ module.exports = function (React) {
     },
     render: function () {
       var props = this.props;
-      return React.DOM.div(null, props.children, props.hasMore && (props.loader || InfiniteScroll._defaultLoader));
+      return React.DOM.tr(null, props.children, props.hasMore && (props.loader || InfiniteScroll._defaultLoader));
     },
     scrollListener: function () {
       var el = this.getDOMNode();
