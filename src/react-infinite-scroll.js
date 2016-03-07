@@ -30,9 +30,9 @@ module.exports = function (React) {
     render: function () {
       var props = this.props;
 
-      var functionName = 'React.DOM.' + this.props.node + '(null, props.children, props.hasMore && (props.loader || InfiniteScroll._defaultLoader));' + 
+      var functionName = 'React.DOM.' + this.props.node + '(null, props.children, props.hasMore && (props.loader || InfiniteScroll._defaultLoader))';
 
-      console.log(functionName);
+      console.log('name: ' + functionName);
 
       return eval(functionName);
 
