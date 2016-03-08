@@ -1,9 +1,9 @@
-React Infinite Scroll Table
+React Infinite Scroll Custom
 =====================
 
 *React infinite scroll component*
 
-*Edited for custom wrapper (tbody instead of div wrapper)*
+*Edited for custom wrapper (eg. tbody instead of div wrapper)*
 
 
 
