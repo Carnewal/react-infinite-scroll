@@ -2,7 +2,7 @@
   "name": "react-infinite-scroll-custom",
   "version": "0.0.3",
   "description": "",
-  "main": "dist/react-infinite-scroll.min.js",
+  "main": "src/react-infinite-scroll.js",
   "scripts": {
     "test": "grunt lint",
     "prepublish": "grunt lint"
